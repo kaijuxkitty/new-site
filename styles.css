@@ -1,0 +1,78 @@
+body { background-color:black;
+
+h1 {color: #CEED;
+    font-size:30px;
+   text-align:right;
+font-family:'Baskerville';
+margin:50px;}
+
+
+
+ li { list-style: none;
+    color:black;
+   font-size:20px;
+   display: inline-block;
+    margin:9px;
+    border: 5px solid rgb(255,190,203);
+    padding:5px;
+    } 
+    
+    a:link, a:visited {
+    background-color: rgb(255, 192, 203);
+    color: black;
+    padding: 20px 70px;
+    text-decoration: none;
+    display: inline-block;
+    margin:40px;
+  }
+  
+  a:hover, a:active {
+    background-color: #CEED;
+  }
+   
+  h2 {font-family:'Baskerville';
+    color:white;
+    font-size:40px;
+    text-align:center; }
+   
+ p {font-size:15px;
+font-family:'Stoic Script';
+color:white;
+font-style:italic;
+float:right;}
+
+img { border-radius:50%;
+     border:1px solid #CEED;
+     float:right;
+    margin-bottom:60px;
+    margin:10px;
+    margin-top:20px;
+}
+
+.flex-container {
+color:grey;
+height:500px;
+width:700px;
+background-color:#CEED;
+font-size:80px;
+font-family:'Baskerville';
+font-style:italic;
+
+
+}
+.container {
+  border-radius: 5px;
+  background-color: rgb(244, 189, 198);
+  padding: 7px;
+}
+input[type=text], select, textarea {
+  width: 40%; 
+  padding: 8px; 
+  border: 1px solid #CEED; 
+  border-radius: 8px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 15px; 
+  resize: vertical ;
+}
+
